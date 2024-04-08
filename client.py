@@ -21,7 +21,7 @@ class Gui_Client:
 
     def ChatGUI(self):
         #GUI
-        self.root = tk.Tk()  # 整个窗口
+        self.root = tk.Tk()  
         self.root.geometry('800x350')
         self.root.title("Welcome to the Multi-User Chat System")
         self.info_frame = tk.Frame(self.root)
